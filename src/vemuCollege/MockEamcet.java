@@ -19,7 +19,7 @@ public class MockEamcet {
 		Thread.sleep(4000);
 		new Select(driver.findElement(By.id("stream"))).selectByVisibleText("JEE Advance");
 		driver.findElement(By.id("name")).sendKeys("Purushotham");
-		driver.findElement(By.id("phone")).sendKeys("9000109120");
+		driver.findElement(By.id("phone")).sendKeys("9980251000");
 		driver.findElement(By.xpath("//*[@id=\"login_form\"]/div[8]/button")).click();
 		
 
